@@ -52,7 +52,7 @@ export default Vue.extend({
           name: 'Aromatic 89 - A scent shop for your home',
           imageSrc: '/aromatic.png',
           techniques: ['Symfony', 'Twig', 'Vue.js', 'Shopware 6'],
-          links: ['https://www.aromatic89-germany.de']
+          links: ['https://www.aromatic89-shop.de']
         },
         {
           name: 'Alphaoptik - The Photographer for you',
