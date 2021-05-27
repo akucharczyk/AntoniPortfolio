@@ -30,7 +30,7 @@
                 role="button"
                 aria-pressed="true"
                 class="btn btn-light text-center"
-                href="mailto:hello@madebyantoni.de"
+                href="mailto:hello@antoni.work"
               >Contact Me</a>
             </div>
           </div>
