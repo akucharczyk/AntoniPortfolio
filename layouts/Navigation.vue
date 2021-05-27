@@ -10,7 +10,7 @@
       <div class="offset-lg-1 col-lg-4 align-self-center contact order-2 order-lg-1">
         <div>
           <b-icon-envelope/>
-          <a href="mailto:hello@madebyantoni.com">hello@madebyantoni.com</a>
+          <a href="mailto:hello@antoni.work">hello@antoni.work</a>
         </div>
         <div>
           <b-icon-compass/>
