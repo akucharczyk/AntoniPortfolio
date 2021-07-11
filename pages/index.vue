@@ -59,7 +59,7 @@ export default {
   },
   methods: {
     handleNavigation () {
-      this.$store.state.navigationIsOpen = !this.$store.state.navigationIsOpen
+      this.$store.commit('handleNavigation')
     }
   }
 }

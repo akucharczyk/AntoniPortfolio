@@ -1,5 +1,5 @@
 <template>
-  <div class="navigation" :class="navigationState">
+  <div class="navigation" :class="`${navigationState} ${closeClass}`">
     <div class="navigation-logo">
       <logo />
     </div>
@@ -42,14 +42,25 @@ export default {
     BIconPhone,
     Logo,
   },
+  data() {
+    return {
+      closeClass: ''
+    }
+  },
   computed: {
     navigationState () {
+      this.closeClass = this.$store.state.navigationIsOpen ? '' : 'close'
+
+      setTimeout(() => {
+        this.closeClass = ''
+      }, 500);
+
       return this.$store.state.navigationIsOpen ? 'open' : ''
     }
   },
   methods: {
     handleNavigation () {
-      this.$store.state.navigationIsOpen = !this.$store.state.navigationIsOpen
+      this.$store.commit('handleNavigation')
     }
   }
 }
@@ -123,14 +134,43 @@ export default {
       @media (min-width: 991.98px) {
         transform: translateX(calc(-50vw - 15px));
       }
-      
-      transform: translateX(-100vw);
+      @media (max-width: 991.98px) {
+        transform: translateX(-100vw);
+      }
     }
   }
-  transform: translateX(-100vw);
 
   @media (min-width: 991.98px) {
     transform: translateX(calc(-50vw - 15px));
+  }
+  @media (max-width: 991.98px) {
+    transform: translateX(-100vw);
+  }
+}
+
+
+.close ~ .content {
+  animation: closeNavigation 0.5s ease-out;
+
+  @keyframes closeNavigation {
+    100% {
+      transform: translateX(0);
+    }
+    0% {
+      @media (min-width: 991.98px) {
+        transform: translateX(calc(-50vw - 15px));
+      }
+      @media (max-width: 991.98px) {
+        transform: translateX(-100vw);
+      }
+    }
+  }
+  
+  @media (min-width: 991.98px) {
+    transform: translateX(calc(-50vw - 15px));
+  }
+  @media (max-width: 991.98px) {
+    transform: translateX(-100vw);
   }
 }
 

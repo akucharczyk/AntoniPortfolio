@@ -51,10 +51,7 @@ html {
 
 .portfolio {
   position: fixed;
-  left: 0;
-  top: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   overflow-x: hidden;
   width: 100vw;
   max-width: 100vw;

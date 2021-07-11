@@ -62,6 +62,13 @@ export default Vue.extend({
   width: 50%;
   padding: 20px;
 
+  @media (max-width: 600px) {
+    * {
+      text-align: right!important;
+    }
+    width: 80%;
+  }
+
   &:first-of-type {
     padding-top: 0;
   }
@@ -74,9 +81,18 @@ export default Vue.extend({
     }
   }
 
-  &:nth-of-type(even) {
-    margin-left: calc(50% - 4px);
-    border-left: 4px solid #00ACD1;
+  @media (min-width: 600px) {
+    &:nth-of-type(even) {
+      margin-left: calc(50% - 4px);
+      border-left: 4px solid #00ACD1;
+    }
+  }
+
+  @media (max-width: 600px) {
+    &:nth-of-type(even) {
+      margin-right: calc(50% - 4px);
+      border-right: 4px solid #00ACD1;
+    }
   }
 
   &::before {
@@ -87,6 +103,13 @@ export default Vue.extend({
     position: absolute;
     left: 50%;
     transform: translate(-8px, 0);
+  }
+
+  @media (max-width: 600px) {
+    &::before {
+      position: absolute;
+      left: calc(80% - 9px);
+    }
   }
 }
 </style>

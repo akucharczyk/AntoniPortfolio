@@ -8,7 +8,15 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '1/2-screen': '50vw',
+      },
+      translate: {
+        'screen': '100vw',
+        '1/2-screen': '50vw',
+      },
+    },
   },
   variants: {
     extend: {},
