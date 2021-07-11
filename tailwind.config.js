@@ -11,6 +11,7 @@ module.exports = {
     extend: {
       width: {
         '1/2-screen': '50vw',
+        'fit-content': 'fit-content',
       },
       translate: {
         'screen': '100vw',

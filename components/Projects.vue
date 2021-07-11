@@ -1,35 +1,38 @@
 <template>
   <div id="work" class="background pb-5">
-    <div class="container">
+    <div class="">
       <h3 class="title text-center pt-5 pb-4">
         My Work
       </h3>
-      <div class="row">
-        <div
-          v-for="(item, index) in projects"
-          :key="index"
-          class="col-md-6 mb-4 d-flex justify-content-center"
-        >
-          <b-card
-            :img-src="item.imageSrc"
-            img-alt="Image"
-            img-top
-            tag="article"
+      <div class="overflow-auto">
+        <div class="flex w-fit-content pl-6 md:pl-48 lg:pl-96">
+          <div
+            v-for="(item, index) in projects"
+            :key="index"
+            class="w-72 sm:w-80 mr-4 justify-content-center"
           >
-            <div class="d-flex flex-wrap">
-              <span v-for="technique in item.techniques" :key="technique" class="pill">{{ technique }}</span>
-            </div>
-            <h4>{{ item.name }}</h4>
-            <span class="mt-4" v-for="link in item.links" :key="link">
-              <span v-if="isGithubLink(link)">
-                <b-icon-github />
+            <b-card
+              :img-src="item.imageSrc"
+              img-alt="Image"
+              img-top
+              tag="article"
+              class="shadow-sm"
+            >
+              <div class="flex flex-wrap">
+                <span v-for="technique in item.techniques" :key="technique" class="pill">{{ technique }}</span>
+              </div>
+              <h4>{{ item.name }}</h4>
+              <span class="mt-4" v-for="link in item.links" :key="link">
+                <span v-if="isGithubLink(link)">
+                  <b-icon-github />
+                </span>
+                <span v-else>
+                  <b-icon-globe2 />
+                </span>
+                <a class="link" :href="link" target="blank">{{ getLink(link) }}</a>
               </span>
-              <span v-else>
-                <b-icon-globe2 />
-              </span>
-              <a class="link" :href="link" target="blank">{{ getLink(link) }}</a>
-            </span>
-          </b-card>
+            </b-card>
+          </div>
         </div>
       </div>
     </div>
