@@ -49,6 +49,12 @@ export default Vue.extend({
     return {
       projects: [
         {
+          name: 'Laura Alicia Kalk Protfolio',
+          imageSrc: '/lauraalicakalk.png',
+          techniques: ['Vue.js', 'Tailwind', 'Strapi', 'Linux'],
+          links: ['https://www.lauraaliciakalk.art']
+        },
+        {
           name: 'Aromatic 89 - A scent shop for your home',
           imageSrc: '/aromatic.png',
           techniques: ['Symfony', 'Twig', 'Vue.js', 'Shopware 6'],
@@ -69,7 +75,7 @@ export default Vue.extend({
         {
           name: 'DEFI Income - Checkout your crypto',
           imageSrc: '/defichain-income.jpg',
-          techniques: ['Angular', 'Figma'],
+          techniques: ['Angular', 'Tailwind', 'Figma'],
           links: ['https://www.defichain-income.com/']
         }
       ]
