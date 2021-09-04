@@ -53,7 +53,7 @@ export default Vue.extend({
       projects: [
         {
           name: 'CapCorp Newsletter Page',
-          imageSrc: '/cap-corp.png',
+          imageSrc: '/cap-corp.jpg',
           techniques: ['Figma'],
           links: []
         },
