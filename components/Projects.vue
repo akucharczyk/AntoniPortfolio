@@ -52,6 +52,12 @@ export default Vue.extend({
     return {
       projects: [
         {
+          name: 'CapCorp Newsletter Page',
+          imageSrc: '/cap-corp.png',
+          techniques: ['Figma'],
+          links: []
+        },
+        {
           name: 'Laura Alicia Kalk Protfolio',
           imageSrc: '/lauraalicakalk.png',
           techniques: ['Vue.js', 'Tailwind', 'Strapi', 'Linux'],
