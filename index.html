@@ -7,6 +7,16 @@
     <title>Antoni Kucharczyk</title>
   </head>
   <body>
+    <form name="contact" hidden method="post">
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="first-name" />
+      <input type="text" name="last-name" />
+      <input type="text" name="phone" />
+      <input type="text" name="subject" />
+      <input type="email" name="email" />
+      <input type="textarea" name="message" />
+      <button type="submit">Send</button>
+    </form>
     <div id="app"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>

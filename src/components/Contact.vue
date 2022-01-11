@@ -233,17 +233,6 @@
 
             <h3 class="text-lg font-medium text-gray-200">Send me a message</h3>
 
-            <form name="contact" hidden method="post">
-              <input type="hidden" name="form-name" value="contact" />
-              <input type="text" name="first-name" />
-              <input type="text" name="last-name" />
-              <input type="text" name="phone" />
-              <input type="text" name="subject" />
-              <input type="email" name="email" />
-              <input type="textarea" name="message" />
-              <button type="submit">Send</button>
-            </form>
-
             <form
               method="post"
               data-netlify="true"
