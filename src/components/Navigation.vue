@@ -24,15 +24,11 @@
                 class="border-transparent text-gray-200 hover:border-pink-500 hover:text-pink-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >Clients</a>
               <a
-                href="#designs"
-                class="border-transparent text-gray-200 hover:border-pink-500 hover:text-pink-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
-              >Designs</a>
-              <a
                 href="#projects"
                 class="border-transparent text-gray-200 hover:border-pink-500 hover:text-pink-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >Projects</a>
               <a
-                href="#"
+                href="#about"
                 class="border-transparent text-gray-200 hover:border-pink-500 hover:text-pink-600 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
               >About</a>
             </div>
@@ -113,20 +109,20 @@
           <div class="pt-2 pb-3 space-y-1">
             <a
               href="#projects"
-              class="border-purple-500 text-indigo-100 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-            >Projects</a>
-            <a
-              href="#designs"
-              class="border-transparent text-gray-100 hover:border-pink-500 hover:text-pink-600 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-            >Designs</a>
-            <a
-              href="#"
               class="border-transparent text-gray-100 hover:border-pink-500 hover:text-pink-600 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             >Projects</a>
             <a
-              href="#"
+              href="#clients"
               class="border-transparent text-gray-100 hover:border-pink-500 hover:text-pink-600 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-            >Calendar</a>
+            >Clients</a>
+            <a
+              href="#about"
+              class="border-transparent text-gray-100 hover:border-pink-500 hover:text-pink-600 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            >About</a>
+            <a
+              href="#contact"
+              class="border-transparent text-gray-100 hover:border-pink-500 hover:text-pink-600 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            >Contact</a>
           </div>
         </PopoverPanel>
       </transition>

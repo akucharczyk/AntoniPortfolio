@@ -12,7 +12,7 @@ import Footer from './components/Footer.vue';
     <Navigation />
     <Header />
 
-    <div id="clients" class="py-5 w-screen overflow-hidden">
+    <div id="clients" class="py-5 w-screen overflow-hidden scroll-pt-96">
       <h3
         class="text-3xl font-extrabold text-center my-4 bg-gradient-to-tr from-pink-600 to-purple-600 bg-clip-text px-10"
         style="-webkit-text-fill-color: transparent"
@@ -46,15 +46,15 @@ import Footer from './components/Footer.vue';
         </div>
       </div>
     </div>
-    <States/>
-    <div id="designs" class="justify-center items-center pt-10 -m-1 w-screen overflow-hidden">
+    <States id="about" />
+    <div id="projects" class="justify-center items-center pt-10 -m-1 w-screen overflow-hidden">
       <h3
         class="text-3xl font-extrabold text-center my-4 bg-gradient-to-tr from-pink-600 to-purple-600 bg-clip-text"
         style="-webkit-text-fill-color: transparent"
       >Recent Designs</h3>
       <DesignCards />
     </div>
-    <Contact />
+    <Contact id="contact" />
     <Footer />
   </div>
 </template>
