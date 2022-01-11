@@ -231,7 +231,8 @@
 
             <h3 class="text-lg font-medium text-gray-200">Send me a message</h3>
             <form
-              netlify
+              method="post"
+              data-netlify="true"
               name="contact"
               @submit.prevent="onSubmit"
               class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
@@ -370,7 +371,10 @@ const onSubmit = async () => {
     state.type = undefined
     await axios.post(
       "https://antoni.work/",
-      data
+      data,
+      {
+        headers: { "Content-Type": "application/x-www-form-urlencoded" }
+      }
     )
 
     data.firstName = ''
