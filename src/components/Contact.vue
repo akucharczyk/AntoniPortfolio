@@ -221,13 +221,15 @@
 
           <!-- Contact form -->
           <div class="py-10 px-6 sm:px-10 lg:col-span-2 xl:p-12">
-            <div v-if="state.type === 'SUCCESS'" class="bg-green-500 text-green-800 text-center py-5 px-2 text-lg font-semibold rounded-lg mb-3">
-              Thanks for your contact! I will be in touch with you.
-            </div>
+            <div
+              v-if="state.type === 'SUCCESS'"
+              class="bg-green-500 text-green-800 text-center py-5 px-2 text-lg font-semibold rounded-lg mb-3"
+            >Thanks for your contact! I will be in touch with you.</div>
 
-            <div v-if="state.type === 'ERROR'" class="bg-red-500 text-red-900 text-center py-5 px-2 text-lg font-semibold rounded-lg mb-3">
-              Ohh no something went wrong! Please try later again.
-            </div>
+            <div
+              v-if="state.type === 'ERROR'"
+              class="bg-red-500 text-red-900 text-center py-5 px-2 text-lg font-semibold rounded-lg mb-3"
+            >Ohh no something went wrong! Please try later again.</div>
 
             <h3 class="text-lg font-medium text-gray-200">Send me a message</h3>
             <form
@@ -365,13 +367,21 @@ const state: StateType = reactive({
   type: undefined
 })
 
+const encode = (data: any) => {
+  return Object.keys(data)
+    .map(
+      key => `${ encodeURIComponent(key) }=${ encodeURIComponent(data[key]) }`
+    )
+    .join("&");
+}
+
 
 const onSubmit = async () => {
   try {
     state.type = undefined
     await axios.post(
-      "https://antoni.work/",
-      data,
+      "/",
+      encode(data),
       {
         headers: { "Content-Type": "application/x-www-form-urlencoded" }
       }
