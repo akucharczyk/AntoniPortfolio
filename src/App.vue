@@ -12,7 +12,7 @@ import Footer from './components/Footer.vue';
     <Navigation />
     <Header />
 
-    <div id="clients" class="py-5 w-screen overflow-hidden scroll-pt-96">
+    <div id="clients" class="py-5 w-screen overflow-hidden">
       <h3
         class="text-3xl font-extrabold text-center my-4 bg-gradient-to-tr from-pink-600 to-purple-600 bg-clip-text px-10"
         style="-webkit-text-fill-color: transparent"

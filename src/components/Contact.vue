@@ -244,7 +244,7 @@
                     v-model="data.firstName"
                     id="first-name"
                     autocomplete="given-name"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -257,7 +257,7 @@
                     v-model="data.lastName"
                     id="last-name"
                     autocomplete="family-name"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -270,7 +270,7 @@
                     v-model="data.email"
                     type="email"
                     autocomplete="email"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -286,7 +286,7 @@
                     v-model="data.phone"
                     id="phone"
                     autocomplete="tel"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
                     aria-describedby="phone-optional"
                   />
                 </div>
@@ -299,7 +299,7 @@
                     name="subject"
                     v-model="data.subject"
                     id="subject"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -314,7 +314,7 @@
                     name="message"
                     v-model="data.message"
                     rows="4"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
                     aria-describedby="message-max"
                   ></textarea>
                 </div>
