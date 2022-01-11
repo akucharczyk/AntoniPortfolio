@@ -47,7 +47,7 @@ import Footer from './components/Footer.vue';
       </div>
     </div>
     <States id="about" />
-    <div id="projects" class="justify-center items-center pt-10 -m-1 w-screen overflow-hidden">
+    <div id="designs" class="justify-center items-center pt-10 -m-1 w-screen overflow-hidden">
       <h3
         class="text-3xl font-extrabold text-center my-4 bg-gradient-to-tr from-pink-600 to-purple-600 bg-clip-text"
         style="-webkit-text-fill-color: transparent"
