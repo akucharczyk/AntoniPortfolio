@@ -232,6 +232,7 @@
             <h3 class="text-lg font-medium text-gray-200">Send me a message</h3>
             <form
               netlify
+              name="contact"
               @submit.prevent="onSubmit"
               class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
