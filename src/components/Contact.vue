@@ -383,7 +383,7 @@ const onSubmit = async () => {
     await axios.post(
       "/",
       encode({
-        "form-name": "contact",
+        formName: "contact",
         ...data
       }),
       {
