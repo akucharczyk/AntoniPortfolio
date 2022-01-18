@@ -9,12 +9,12 @@
       @click="openLink(card.url)"
     >
       <img
-        class="p-1 mx-auto shrink-0 w-full sm:w-96 h-auto md:max-w-xl lg:max-w-2xl xl:max-w-5xl md:w-full md:h-auto object-contain md:object-cover rounded-lg border border-transparent md:group-hover:border-purple-500 transition-all"
+        class="p-1 mx-auto shrink-0 w-full h-auto md:max-w-xl lg:max-w-xl xl:max-w-2xl md:w-full md:h-auto object-contain md:object-cover rounded-lg border border-transparent md:group-hover:border-blue-500 transition-all"
         :src="card.src"
         :title="card.title"
       />
       <div
-        class="text-gray-100 group-hover:text-purple-500 text-lg lg:text-xl text-center md:text-right lg:text-center transition-colors"
+        class="text-gray-100 group-hover:text-blue-500 text-lg lg:text-xl text-center md:text-right md:pr-2 lf:pr-0 lg:text-center transition-colors"
       >{{ card.title }}</div>
     </div>
   </div>
@@ -23,16 +23,16 @@
 <script lang="ts" setup>
 const cardItems = [
   {
-    src: '/designs/golf-io.jpg',
-    title: 'Minigolf.io',
-  },
-  {
     src: '/designs/newsletter.jpeg',
     title: 'Newsletter Classic',
   },
   {
     src: '/designs/DEFI-History.jpg',
     title: 'DEFI-History',
+  },
+  {
+    src: '/designs/golf-io.jpg',
+    title: 'Minigolf.io',
   },
   {
     src: '/designs/Papers.jpg',
