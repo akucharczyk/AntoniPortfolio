@@ -4,12 +4,12 @@
   >
     <div
       v-for="card in cardItems"
-      class="group first:snap-always snap-center snap-always shrink-0 first:pl-8 lg:first:pl-20 last:pr-8 lg:last:pr-20 self-center md:w-1/2 xl:w-1/3"
+      class="group first:snap-always snap-center snap-always shrink-0 first:pl-2 lg:first:pl-20 last:pr-0 lg:last:pr-20 self-center w-full md:w-1/2 xl:w-1/3"
       :class="card.url ? 'cursor-pointer' : 'cursor-default'"
       @click="openLink(card.url)"
     >
       <img
-        class="shrink-0 w-96 h-auto md:max-w-xl lg:max-w-2xl xl:max-w-5xl md:w-full md:h-auto object-contain md:object-cover rounded-lg border border-transparent md:group-hover:border-purple-500 transition-all p-1 mx-auto"
+        class="p-1 mx-auto shrink-0 w-full sm:w-96 h-auto md:max-w-xl lg:max-w-2xl xl:max-w-5xl md:w-full md:h-auto object-contain md:object-cover rounded-lg border border-transparent md:group-hover:border-purple-500 transition-all"
         :src="card.src"
         :title="card.title"
       />

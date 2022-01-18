@@ -34,7 +34,7 @@
         </p>
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p class="group cursor-pointer">
-            <span class="block text-2xl font-bold text-white group-hover:text-pink-600 transition-colors">6+</span>
+            <span class="block text-2xl font-bold text-white group-hover:text-pink-600 transition-colors">5+</span>
             <span class="mt-1 block text-base text-gray-300">
               <span class="font-medium text-white">Years</span> of professional experiance.
             </span>
