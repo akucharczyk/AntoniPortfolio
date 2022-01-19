@@ -7,7 +7,7 @@
             <div class="flex-shrink-0 flex items-center">
               <a href="#">
                 <svg
-                  class="h-8 w-8 fill-blue-500"
+                  class="h-8 w-8 fill-fuchsia-500"
                   viewBox="0 0 58 51"
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
@@ -23,15 +23,15 @@
             <div class="hidden lg:ml-6 lg:flex lg:space-x-8">
               <a
                 href="#clients"
-                class="border-transparent text-gray-200 hover:border-blue-500 hover:text-blue-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                class="border-transparent text-gray-200 hover:border-fuchsia-500 hover:text-fuchsia-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
               >Clients</a>
               <a
                 href="#designs"
-                class="border-transparent text-gray-200 hover:border-blue-500 hover:text-blue-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                class="border-transparent text-gray-200 hover:border-fuchsia-500 hover:text-fuchsia-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
               >Designs</a>
               <a
                 href="#about"
-                class="border-transparent text-gray-200 hover:border-blue-500 hover:text-blue-500 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium"
+                class="border-transparent text-gray-200 hover:border-fuchsia-500 hover:text-fuchsia-500 inline-flex items-center px-1 pt-1 border-b-2 text-lg font-medium"
               >About</a>
             </div>
           </div>
