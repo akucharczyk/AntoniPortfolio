@@ -6,7 +6,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-3">
           <!-- Contact information -->
-          <div class="relative overflow-hidden py-10 px-6 bg-pink-700 sm:px-10 xl:p-12">
+          <div class="relative overflow-hidden py-10 px-6 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 sm:px-10 xl:p-12">
             <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
               <svg
                 class="absolute inset-0 w-full h-full"
@@ -230,7 +230,7 @@
                     v-model="data.firstName"
                     id="first-name"
                     autocomplete="given-name"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-blue-500 focus:caret-blue-500 focus:border-blue-500 border-gray-300 bg-slate-500 rounded-md caret-blue-500 outline-1 outline-blue-500 focus-visible:outline-blue-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -243,7 +243,7 @@
                     v-model="data.lastName"
                     id="last-name"
                     autocomplete="family-name"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-blue-500 focus:caret-blue-500 focus:border-blue-500 border-gray-300 bg-slate-500 rounded-md caret-blue-500 outline-1 outline-blue-500 focus-visible:outline-blue-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -256,7 +256,7 @@
                     v-model="data.email"
                     type="email"
                     autocomplete="email"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-blue-500 focus:caret-blue-500 focus:border-blue-500 border-gray-300 bg-slate-500 rounded-md caret-blue-500 outline-1 outline-blue-500 focus-visible:outline-blue-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -272,7 +272,7 @@
                     v-model="data.phone"
                     id="phone"
                     autocomplete="tel"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-blue-500 focus:caret-blue-500 focus:border-blue-500 border-gray-300 bg-slate-500 rounded-md caret-blue-500 outline-1 outline-blue-500 focus-visible:outline-blue-500 focus-visible:outline focus-visible:outline-2"
                     aria-describedby="phone-optional"
                   />
                 </div>
@@ -285,7 +285,7 @@
                     name="subject"
                     v-model="data.subject"
                     id="subject"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-blue-500 focus:caret-blue-500 focus:border-blue-500 border-gray-300 bg-slate-500 rounded-md caret-blue-500 outline-1 outline-blue-500 focus-visible:outline-blue-500 focus-visible:outline focus-visible:outline-2"
                   />
                 </div>
               </div>
@@ -300,7 +300,7 @@
                     name="message"
                     v-model="data.message"
                     rows="4"
-                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-pink-500 focus:caret-pink-500 focus:border-pink-500 border-gray-300 bg-slate-500 rounded-md caret-pink-500 outline-1 outline-pink-500 focus-visible:outline-pink-500 focus-visible:outline focus-visible:outline-2"
+                    class="py-3 px-4 block w-full shadow-sm text-gray-200 focus:ring-blue-500 focus:caret-blue-500 focus:border-blue-500 border-gray-300 bg-slate-500 rounded-md caret-blue-500 outline-1 outline-blue-500 focus-visible:outline-blue-500 focus-visible:outline focus-visible:outline-2"
                     aria-describedby="message-max"
                   ></textarea>
                 </div>
@@ -308,7 +308,7 @@
               <div class="sm:col-span-2 sm:flex sm:justify-end">
                 <button
                   type="submit"
-                  class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 border border-transparent text-base font-medium text-white rounded-md shadow-md shadow-purple-500/70 hover:shadow-purple-500/40 ease-in-out duration-150 bg-gradient-to-br from-pink-600 to-purple-600 hover:bg-gradient-to-br transition-all"
+                  class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white rounded-md shadow-md shadow-blue-500/70 hover:shadow-blue-500/40 ease-in-out duration-150 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 hover:bg-gradient-to-br transition-all"
                 >Submit</button>
               </div>
             </form>

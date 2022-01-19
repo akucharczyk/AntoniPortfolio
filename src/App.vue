@@ -14,9 +14,9 @@ import Footer from './components/Footer.vue';
 
     <div id="clients" class="py-5 w-screen overflow-hidden">
       <h3
-        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-tr from-pink-600 to-purple-600 bg-clip-text px-10"
+        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 bg-clip-text px-10"
         style="-webkit-text-fill-color: transparent"
-      >Companys I already worked with:</h3>
+      >Companies I already worked with:</h3>
       <div
         class="mx-auto md:max-w-3xl lg:max-w-5xl grid grid-rows-3 grid-cols-1 md:grid-cols-3 md:grid-rows-1 gap-10 md:gap-20"
       >
@@ -49,7 +49,7 @@ import Footer from './components/Footer.vue';
     <States id="about" />
     <div id="designs" class="justify-center items-center pt-10 -m-1 w-screen overflow-hidden">
       <h3
-        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-tr from-pink-600 to-purple-600 bg-clip-text"
+        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 bg-clip-text"
         style="-webkit-text-fill-color: transparent"
       >Recent Designs</h3>
       <DesignCards />

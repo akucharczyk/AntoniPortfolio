@@ -1,5 +1,5 @@
 <template>
-  <div class="relative bg-gray-900">
+  <div class="relative bg-slate-900">
     <div class="h-80 w-full absolute bottom-0 xl:inset-0 xl:h-full">
       <div class="h-full w-full xl:grid xl:grid-cols-2">
         <div class="h-full xl:relative xl:col-start-2">
@@ -11,7 +11,7 @@
           />
           <div
             aria-hidden="true"
-            class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-gray-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
+            class="absolute inset-x-0 top-0 h-32 bg-gradient-to-b from-slate-900 xl:inset-y-0 xl:left-0 xl:h-full xl:w-32 xl:bg-gradient-to-r"
           ></div>
         </div>
       </div>
@@ -21,7 +21,7 @@
     >
       <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
         <h2
-          class="text-sm font-semibold tracking-wide uppercase bg-gradient-to-br from-pink-600 to-purple-600 bg-clip-text"
+          class="text-sm font-semibold tracking-wide uppercase bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 bg-clip-text"
           style="-webkit-text-fill-color: transparent"
         >Valuable Metrics</h2>
         <p
@@ -34,23 +34,23 @@
         </p>
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p class="group cursor-pointer">
-            <span class="block text-2xl font-bold text-white group-hover:text-pink-600 transition-colors">5+</span>
+            <span class="block text-2xl font-bold text-white group-hover:text-blue-500 transition-colors">5+</span>
             <span class="mt-1 block text-base text-gray-300">
-              <span class="font-medium text-white">Years</span> of professional experiance.
+              <span class="font-semibold text-white">Years</span> of professional experiance.
             </span>
           </p>
 
           <p class="group cursor-pointer">
-            <span class="block text-2xl font-bold text-white group-hover:text-pink-600 transition-colors">25+</span>
+            <span class="block text-2xl font-bold text-white group-hover:text-blue-500 transition-colors">25+</span>
             <span class="mt-1 block text-base text-gray-300">
-              <span class="font-medium text-white">Successfully</span> launched Projects.
+              <span class="font-semibold text-white">Successfully</span> launched Projects.
             </span>
           </p>
 
           <p class="group cursor-pointer">
-            <span class="block text-2xl font-bold text-white group-hover:text-pink-600 transition-colors">300+</span>
+            <span class="block text-2xl font-bold text-white group-hover:text-blue-500 transition-colors">300+</span>
             <span class="mt-1 block text-base text-gray-300">
-              <span class="font-medium text-white">New Features</span> planned and developed.
+              <span class="font-semibold text-white">New Features</span> planned and developed.
             </span>
           </p>
         </div>
