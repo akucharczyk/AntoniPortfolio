@@ -21,7 +21,7 @@
     >
       <div class="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
         <h2
-          class="text-sm font-semibold tracking-wide uppercase bg-gradient-to-br from-green-500 to-blue-600 bg-clip-text"
+          class="text-sm font-semibold tracking-wide uppercase bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 bg-clip-text"
           style="-webkit-text-fill-color: transparent"
         >Valuable Metrics</h2>
         <p

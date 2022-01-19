@@ -4,7 +4,7 @@
       class="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8"
     >
       <div class="flex justify-center space-x-6 md:order-2">
-        <a href="https://instagram.com/madebyantoni" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-green-500">
+        <a href="https://instagram.com/madebyantoni" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-fuchsia-500">
           <span class="sr-only">Instagram</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -15,7 +15,7 @@
           </svg>
         </a>
 
-        <a href="https://twitter.com/antoni_ku" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-green-500">
+        <a href="https://twitter.com/antoni_ku" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-fuchsia-500">
           <span class="sr-only">Twitter</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -24,7 +24,7 @@
           </svg>
         </a>
 
-        <a href="https://github.com/akucharczyk" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-green-500">
+        <a href="https://github.com/akucharczyk" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-fuchsia-500">
           <span class="sr-only">GitHub</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path
@@ -35,7 +35,7 @@
           </svg>
         </a>
 
-        <a href="https://dribbble.com/antoni_ku" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-green-500">
+        <a href="https://dribbble.com/antoni_ku" target="_blank" rel="noopener noreferrer" class="text-blue-500 hover:text-fuchsia-500">
           <span class="sr-only">Dribbble</span>
           <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
             <path

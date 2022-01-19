@@ -14,7 +14,7 @@ import Footer from './components/Footer.vue';
 
     <div id="clients" class="py-5 w-screen overflow-hidden">
       <h3
-        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-br from-green-500 to-blue-600 bg-clip-text px-10"
+        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 bg-clip-text px-10"
         style="-webkit-text-fill-color: transparent"
       >Companies I already worked with:</h3>
       <div
@@ -49,7 +49,7 @@ import Footer from './components/Footer.vue';
     <States id="about" />
     <div id="designs" class="justify-center items-center pt-10 -m-1 w-screen overflow-hidden">
       <h3
-        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-br from-green-500 to-blue-600 bg-clip-text"
+        class="text-3xl font-extrabold text-center my-4 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 bg-clip-text"
         style="-webkit-text-fill-color: transparent"
       >Recent Designs</h3>
       <DesignCards />

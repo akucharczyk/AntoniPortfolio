@@ -6,7 +6,7 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-3">
           <!-- Contact information -->
-          <div class="relative overflow-hidden py-10 px-6 bg-gradient-to-tr to-green-500 from-blue-600 sm:px-10 xl:p-12">
+          <div class="relative overflow-hidden py-10 px-6 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 sm:px-10 xl:p-12">
             <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
               <svg
                 class="absolute inset-0 w-full h-full"
@@ -308,7 +308,7 @@
               <div class="sm:col-span-2 sm:flex sm:justify-end">
                 <button
                   type="submit"
-                  class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white rounded-md shadow-md shadow-blue-500/70 hover:shadow-blue-500/40 ease-in-out duration-150 bg-gradient-to-br from-green-500 to-blue-600 hover:bg-gradient-to-br transition-all"
+                  class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white rounded-md shadow-md shadow-blue-500/70 hover:shadow-blue-500/40 ease-in-out duration-150 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 hover:bg-gradient-to-br transition-all"
                 >Submit</button>
               </div>
             </form>

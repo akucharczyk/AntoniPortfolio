@@ -93,7 +93,7 @@
           <div class="lg:flex items-center hidden">
             <a
               href="#contact"
-              class="px-4 py-3 font-semibold text-sm text-white rounded-md shadow-sm shadow-blue-500/70 hover:shadow-blue-500/10 ease-in-out duration-150 bg-gradient-to-br hover:bg-gradient-to-r from-green-500 to-blue-600"
+              class="px-4 py-3 font-semibold text-sm text-white rounded-md shadow-sm shadow-blue-500/70 hover:shadow-blue-500/10 ease-in-out duration-150 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600"
             >Contact Me</a>
           </div>
         </div>
@@ -107,24 +107,31 @@
         leave-from-class="translate-y-0 opacity-100"
         leave-to-class="translate-y-1 opacity-0"
       >
-        <PopoverPanel>
+        <PopoverPanel v-slot="{ close }">
           <div class="pt-2 pb-3 space-y-1">
             <a
-              href="#designs"
-              class="border-transparent text-gray-100 hover:border-blue-500 hover:text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-            >Designs</a>
-            <a
+              @click="close()"
               href="#clients"
               class="border-transparent text-gray-100 hover:border-blue-500 hover:text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             >Clients</a>
             <a
+              @click="close()"
+              href="#designs"
+              class="border-transparent text-gray-100 hover:border-blue-500 hover:text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
+            >Designs</a>
+            <a
+              @click="close()"
               href="#about"
               class="border-transparent text-gray-100 hover:border-blue-500 hover:text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
             >About</a>
-            <a
-              href="#contact"
-              class="border-transparent text-gray-100 hover:border-blue-500 hover:text-blue-500 block pl-3 pr-4 py-2 border-l-4 text-base font-medium"
-            >Contact</a>
+            <hr/>
+            <div class="flex px-4 py-2">
+              <a
+                @click="close()"
+                href="#contact"
+                class="w-full text-center px-4 py-3 block font-semibold text-sm text-white rounded-md shadow-sm shadow-blue-500/70 hover:shadow-blue-500/10 ease-in-out duration-150 bg-gradient-to-br hover:bg-gradient-to-r from-blue-500 via-fuchsia-400 to-fuchsia-600"
+              >Contact Me</a>
+            </div>
           </div>
         </PopoverPanel>
       </transition>
@@ -132,12 +139,6 @@
   </nav>
 </template>
 
-<script lang="ts">
+<script lang="ts" setup>
 import { Popover, PopoverButton, PopoverPanel } from '@headlessui/vue'
-
-export default {
-  components: {
-    Popover, PopoverButton, PopoverPanel
-  }
-}
 </script>
