@@ -105,8 +105,7 @@
             </div>
             <h3 class="text-lg font-medium text-white">Contact information</h3>
             <p class="mt-6 text-base text-gray-100 max-w-3xl">
-              Do you want to work with me? Just write me a message and I will contact you ASAP.
-              <br />Or just write me an Email or call me.
+              Do you have any questions? Please do not hesitate to contact me.
             </p>
             <dl class="mt-8 space-y-6">
               <dt>
