@@ -26,17 +26,17 @@
         >Valuable Metrics</h2>
         <p
           class="mt-3 text-3xl font-extrabold text-white"
-        >More Information about my experiance</p>
+        >More Information about my experience.</p>
         <p
           class="mt-5 text-lg text-gray-300"
         >
-        I already worked with a bunch of customers, created a cluster of features and designs a bouquet of Webpages.
+        I already worked with a bunch of customers, creating a cluster of features and designing a bouquet of Webpages.
         </p>
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p class="group cursor-pointer">
             <span class="block text-2xl font-bold text-white group-hover:text-blue-500 transition-colors">5+</span>
             <span class="mt-1 block text-base text-gray-300">
-              <span class="font-semibold text-white">Years</span> of professional experiance.
+              <span class="font-semibold text-white">Years</span> of professional experience.
             </span>
           </p>
 
