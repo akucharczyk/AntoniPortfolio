@@ -1,17 +1,18 @@
 <script setup lang="ts">
-import Header from './components/Header.vue';
-import Navigation from './components/Navigation.vue';
-import DesignCards from './components/DesignCards.vue';
-import States from './components/States.vue';
-import Contact from './components/Contact.vue';
-import Footer from './components/Footer.vue';
+import Header from './components/Header.vue'
+import Navigation from './components/Navigation.vue'
+import DesignCards from './components/DesignCards.vue'
+import States from './components/States.vue'
+import Contact from './components/Contact.vue'
+import Footer from './components/Footer.vue'
+import CookieBanner from './components/CookieBanner.vue'
 </script>
 
 <template>
   <div class="w-screen overflow-hidden bg-slate-900">
     <Navigation />
     <Header />
-
+    <CookieBanner />
     <div id="clients" class="py-5 w-screen overflow-hidden">
       <h3
         class="text-3xl font-extrabold text-center my-4 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 bg-clip-text px-10"

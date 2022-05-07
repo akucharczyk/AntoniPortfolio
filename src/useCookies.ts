@@ -1,0 +1,43 @@
+import { ref, watch, computed } from "vue"
+import { useCookie } from "vue-cookie-next"
+
+const allowCookies = ref<boolean>()
+
+export default function useCookies(gtag: any) {
+  const cookie = useCookie()
+
+  if (cookie.isCookieAvailable("cookies_consent")) {
+    allowCookies.value = cookie.getCookie("cookies_consent") === "true"
+    gtag?.optIn()
+  } else {
+    allowCookies.value = undefined
+  }
+
+  watch(allowCookies, () => {
+    if (allowCookies.value != undefined) {
+      cookie.setCookie("cookies_consent", allowCookies.value.toString(), {
+        expire: new Date(2023, 1, 1),
+      })
+      if (allowCookies.value) {
+        gtag?.optIn()
+        return
+      }
+
+      gtag?.optOut()
+    }
+  })
+
+  const showBanner = computed(() => {
+    return allowCookies.value === undefined
+  })
+
+  const okClicked = () => (allowCookies.value = true)
+  const dismissClicked = () => (allowCookies.value = false)
+
+  return {
+    allowCookies,
+    showBanner,
+    okClicked,
+    dismissClicked,
+  }
+}
