@@ -9,7 +9,6 @@ const app = createApp(App)
 
 app.use(VueCookieNext)
 app.use(VueGtag, {
-  disableScriptLoad: true,
   enabled: false,
   config: { id: 'G-PHQ3PVWXDL' },
 })
