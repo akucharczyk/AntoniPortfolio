@@ -111,7 +111,7 @@
               <dt>
                 <span class="sr-only">Phone number</span>
               </dt>
-              <dd class="flex text-base text-gray-100">
+              <dd class="flex text-base text-gray-100 hover:text-indigo-300">
                 <!-- Heroicon name: outline/phone -->
                 <svg
                   class="flex-shrink-0 w-6 h-6 text-gray-200"
@@ -135,7 +135,7 @@
               <dt>
                 <span class="sr-only">Email</span>
               </dt>
-              <dd class="flex text-base text-gray-100">
+              <dd class="flex text-base text-gray-100 hover:text-indigo-300">
                 <!-- Heroicon name: outline/mail -->
                 <svg
                   class="flex-shrink-0 w-6 h-6 text-gray-200"
@@ -159,7 +159,7 @@
             </dl>
             <ul role="list" class="mt-8 flex space-x-12">
               <li>
-                <a class="text-gray-200 hover:text-indigo-100" href="https://github.com/akucharczyk" target="_blank">
+                <a class="text-gray-200 hover:text-indigo-300" href="https://github.com/akucharczyk" target="_blank">
                   <span class="sr-only">GitHub</span>
                   <svg
                     width="24"
@@ -178,7 +178,7 @@
                 </a>
               </li>
               <li>
-                <a class="text-gray-200 hover:text-indigo-100" href="https://twitter.com/antoni_ku" target="_blank">
+                <a class="text-gray-200 hover:text-indigo-300" href="https://twitter.com/antoni_ku" target="_blank">
                   <span class="sr-only">Twitter</span>
                   <svg
                     width="24"

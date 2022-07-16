@@ -74,11 +74,10 @@
                 <h1>Impressum</h1>
 
                 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
-                <p>Max Mustermann<br />
-                  Musterladen (Einzelunternehmer)<br />
-                  Musterstra&szlig;e 111<br />
-                  Geb&auml;ude 44<br />
-                  90210 Musterstadt</p>
+                <p>Antoni Kucharczyk<br />
+                 (Einzelunternehmer)<br />
+                  Krepperweg 2<br />
+                  40724 Hilden</p>
 
                 <h2>Kontakt</h2>
                 <p>Telefon: +49 (0) 15780413301<br />
@@ -87,7 +86,7 @@
                 <h2>Redaktionell verantwortlich</h2>
                 <p>Antoni Kucharczyk<br />
                   Krepperweg 2<br />
-                  40723 Hilden</p>
+                  40724 Hilden</p>
 
                 <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
                 <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
