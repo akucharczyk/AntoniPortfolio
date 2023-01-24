@@ -30,7 +30,7 @@
         <p
           class="mt-5 text-lg text-gray-300"
         >
-        I already worked with a bunch of customers, creating a cluster of features and designing a bouquet of Webpages.
+        I have extensive experience working with a variety of clients, developing a wide range of features and designing numerous web pages.
         </p>
         <div class="mt-12 grid grid-cols-1 gap-y-12 gap-x-6 sm:grid-cols-2">
           <p class="group cursor-pointer">
