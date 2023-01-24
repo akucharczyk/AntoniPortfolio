@@ -26,7 +26,7 @@ import CookieBanner from './components/CookieBanner.vue'
             src="./assets/SMSGroup.svg"
             title="SMS Group"
             alt="SMS Group Logo"
-            class="h-20 grayscale invert hover:invert-0 hover:grayscale-0 transition-all duration-150 w-1/2 md:w-full"
+            class="h-24 grayscale invert hover:invert-0 hover:grayscale-0 transition-all duration-150 w-1/2 md:w-full"
           />
         </div>
         <div class="px-20 md:p-4 flex items-center justify-center">
@@ -39,10 +39,10 @@ import CookieBanner from './components/CookieBanner.vue'
         </div>
         <div class="px-20 md:p-4 flex items-center justify-center">
           <img
-            src="./assets/LanXess-Logo.svg"
+            src="./assets/Vaillant.svg"
             title="LanXess"
-            alt="LanXess Logo"
-            class="h-10 grayscale invert hover:invert-0 hover:grayscale-0 transition-all duration-150"
+            alt="Vaillant Logo"
+            class="h-24 grayscale invert hover:invert-0 hover:grayscale-0 transition-all duration-150"
           />
         </div>
       </div>

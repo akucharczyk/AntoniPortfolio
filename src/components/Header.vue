@@ -9,7 +9,7 @@
             style="-webkit-text-fill-color: transparent"
           >Antoni Kucharczyk</h1>
           <p class="uppercase mb-2 text-gray-400">// about me</p>
-          <p class="text-gray-200 text-xl mb-5">I am a Software Developer and passionate about UI/UX Designer.</p>
+          <p class="text-gray-200 text-xl mb-5">I am a software developer with a passion for UI/UX design, experienced in technologies such as React, Node.js, and GraphQL. I have a talent for creating visually appealing and user-friendly interfaces. I work well in a team and am dedicated to delivering high-quality software.</p>
           <div class="mt-10 sm:flex sm:justify-center lg:justify-start">
             <a
               href="mailto:hello@antoni.work"
