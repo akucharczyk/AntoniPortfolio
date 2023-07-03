@@ -80,7 +80,7 @@
                 </p>
 
                 <h2>Kontakt</h2>
-                <p>Telefon: +49 (0) 15780413301<br />
+                <p>Telefon: +49 (1525) 9702316<br />
                   E-Mail: hello@antoni.work</p>
 
                 <h2>Redaktionell verantwortlich</h2>
