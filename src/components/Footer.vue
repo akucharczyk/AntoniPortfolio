@@ -76,18 +76,16 @@
                 <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
                 <p>Antoni Kucharczyk<br />
                  (Einzelunternehmer)<br />
-                  Krepperweg 2<br />
-                  40724 Hilden</p>
+                 Adresse auf Anfrage
+                </p>
 
                 <h2>Kontakt</h2>
                 <p>Telefon: +49 (0) 15780413301<br />
                   E-Mail: hello@antoni.work</p>
 
                 <h2>Redaktionell verantwortlich</h2>
-                <p>Antoni Kucharczyk<br />
-                  Krepperweg 2<br />
-                  40724 Hilden</p>
-
+                <p>Antoni Kucharczyk</p>
+                
                 <h2>Verbraucher&shy;streit&shy;beilegung/Universal&shy;schlichtungs&shy;stelle</h2>
                 <p>Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer
                   Verbraucherschlichtungsstelle teilzunehmen.</p>
