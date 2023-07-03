@@ -6,8 +6,13 @@
 
         <div class="grid grid-cols-1 lg:grid-cols-3">
           <!-- Contact information -->
-          <div class="relative overflow-hidden py-10 px-6 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 sm:px-10 xl:p-12">
-            <div class="absolute inset-0 pointer-events-none sm:hidden" aria-hidden="true">
+          <div
+            class="relative overflow-hidden py-10 px-6 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 sm:px-10 xl:p-12"
+          >
+            <div
+              class="absolute inset-0 pointer-events-none sm:hidden"
+              aria-hidden="true"
+            >
               <svg
                 class="absolute inset-0 w-full h-full"
                 width="343"
@@ -109,30 +114,6 @@
             </p>
             <dl class="mt-8 space-y-6">
               <dt>
-                <span class="sr-only">Phone number</span>
-              </dt>
-              <dd class="flex text-base text-gray-100 hover:text-indigo-300">
-                <!-- Heroicon name: outline/phone -->
-                <svg
-                  class="flex-shrink-0 w-6 h-6 text-gray-200"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
-                  />
-                </svg>
-                <a href="tel:+4915259702316">
-                  <span class="ml-3">+49 (1525) 9702316</span>
-                </a>
-              </dd>
-              <dt>
                 <span class="sr-only">Email</span>
               </dt>
               <dd class="flex text-base text-gray-100 hover:text-indigo-300">
@@ -159,7 +140,34 @@
             </dl>
             <ul role="list" class="mt-8 flex space-x-12">
               <li>
-                <a class="text-gray-200 hover:text-indigo-300" href="https://github.com/akucharczyk" target="_blank">
+                <a
+                  class="text-gray-200 hover:text-indigo-300"
+                  href="https://www.linkedin.com/in/antoni-kucharczyk/"
+                  target="_blank"
+                >
+                  <span class="sr-only">LinkedIn</span>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    class="w-6 h-6"
+                    aria-hidden="true"
+                  >
+                    <path
+                      d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"
+                      fill="currentColor"
+                    />
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-200 hover:text-indigo-300"
+                  href="https://github.com/akucharczyk"
+                  target="_blank"
+                >
                   <span class="sr-only">GitHub</span>
                   <svg
                     width="24"
@@ -178,7 +186,11 @@
                 </a>
               </li>
               <li>
-                <a class="text-gray-200 hover:text-indigo-300" href="https://twitter.com/antoni_ku" target="_blank">
+                <a
+                  class="text-gray-200 hover:text-indigo-300"
+                  href="https://twitter.com/antoni_ku"
+                  target="_blank"
+                >
                   <span class="sr-only">Twitter</span>
                   <svg
                     width="24"
@@ -204,12 +216,16 @@
             <div
               v-if="state.type === 'SUCCESS'"
               class="bg-green-500 text-green-800 text-center py-5 px-2 text-lg font-semibold rounded-lg mb-3"
-            >Thanks for your contact! I will be in touch with you.</div>
+            >
+              Thanks for your contact! I will be in touch with you.
+            </div>
 
             <div
               v-if="state.type === 'ERROR'"
               class="bg-red-500 text-red-900 text-center py-5 px-2 text-lg font-semibold rounded-lg mb-3"
-            >Ohh no something went wrong! Please try later again.</div>
+            >
+              Ohh no something went wrong! Please try later again.
+            </div>
 
             <h3 class="text-lg font-medium text-gray-200">Send me a message</h3>
 
@@ -221,7 +237,11 @@
               class="mt-6 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"
             >
               <div>
-                <label for="first-name" class="block text-sm font-medium text-gray-200">First name</label>
+                <label
+                  for="first-name"
+                  class="block text-sm font-medium text-gray-200"
+                  >First name</label
+                >
                 <div class="mt-1">
                   <input
                     type="text"
@@ -234,7 +254,11 @@
                 </div>
               </div>
               <div>
-                <label for="last-name" class="block text-sm font-medium text-gray-200">Last name</label>
+                <label
+                  for="last-name"
+                  class="block text-sm font-medium text-gray-200"
+                  >Last name</label
+                >
                 <div class="mt-1">
                   <input
                     type="text"
@@ -247,7 +271,11 @@
                 </div>
               </div>
               <div>
-                <label for="email" class="block text-sm font-medium text-gray-200">Email</label>
+                <label
+                  for="email"
+                  class="block text-sm font-medium text-gray-200"
+                  >Email</label
+                >
                 <div class="mt-1">
                   <input
                     id="email"
@@ -261,8 +289,14 @@
               </div>
               <div>
                 <div class="flex justify-between">
-                  <label for="phone" class="block text-sm font-medium text-gray-200">Phone</label>
-                  <span id="phone-optional" class="text-sm text-gray-500">Optional</span>
+                  <label
+                    for="phone"
+                    class="block text-sm font-medium text-gray-200"
+                    >Phone</label
+                  >
+                  <span id="phone-optional" class="text-sm text-gray-500"
+                    >Optional</span
+                  >
                 </div>
                 <div class="mt-1">
                   <input
@@ -277,7 +311,11 @@
                 </div>
               </div>
               <div class="sm:col-span-2">
-                <label for="subject" class="block text-sm font-medium text-gray-200">Subject</label>
+                <label
+                  for="subject"
+                  class="block text-sm font-medium text-gray-200"
+                  >Subject</label
+                >
                 <div class="mt-1">
                   <input
                     type="text"
@@ -290,8 +328,14 @@
               </div>
               <div class="sm:col-span-2">
                 <div class="flex justify-between">
-                  <label for="message" class="block text-sm font-medium text-gray-200">Message</label>
-                  <span id="message-max" class="text-sm text-gray-500">Max. 500 characters</span>
+                  <label
+                    for="message"
+                    class="block text-sm font-medium text-gray-200"
+                    >Message</label
+                  >
+                  <span id="message-max" class="text-sm text-gray-500"
+                    >Max. 500 characters</span
+                  >
                 </div>
                 <div class="mt-1">
                   <textarea
@@ -308,7 +352,9 @@
                 <button
                   type="submit"
                   class="mt-2 w-full inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white rounded-md shadow-md shadow-blue-500/70 hover:shadow-blue-500/40 ease-in-out duration-150 bg-gradient-to-br from-blue-500 via-fuchsia-400 to-fuchsia-600 hover:bg-gradient-to-br transition-all"
-                >Submit</button>
+                >
+                  Submit
+                </button>
               </div>
             </form>
           </div>
@@ -319,73 +365,69 @@
 </template>
 
 <script lang="ts" setup>
-import axios from 'axios'
-import { reactive } from 'vue'
+import axios from "axios";
+import { reactive } from "vue";
 
 type DataType = {
-  firstName: string
-  lastName: string
-  email: string
-  phone: string
-  subject: string
-  message: string
-}
+  firstName: string;
+  lastName: string;
+  email: string;
+  phone: string;
+  subject: string;
+  message: string;
+};
 
 type StateType = {
-  type?: 'SUCCESS' | 'ERROR'
-}
+  type?: "SUCCESS" | "ERROR";
+};
 
 const data: DataType = {
-  firstName: '',
-  lastName: '',
-  email: '',
-  phone: '',
-  subject: '',
-  message: '',
-}
+  firstName: "",
+  lastName: "",
+  email: "",
+  phone: "",
+  subject: "",
+  message: "",
+};
 
 const state: StateType = reactive({
-  type: undefined
-})
+  type: undefined,
+});
 
 const encode = (data: any) => {
   return Object.keys(data)
-    .map(
-      key => `${ encodeURIComponent(key) }=${ encodeURIComponent(data[key]) }`
-    )
+    .map((key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`)
     .join("&");
-}
-
+};
 
 const onSubmit = async () => {
   try {
-    state.type = undefined
+    state.type = undefined;
     await axios.post(
       "/",
       encode({
         "form-name": "contact",
-        ...data
+        ...data,
       }),
       {
-        headers: { "Content-Type": "application/x-www-form-urlencoded" }
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
       }
-    )
+    );
 
-    data.firstName = ''
-    data.lastName = ''
-    data.email = ''
-    data.phone = ''
-    data.subject = ''
-    data.message = ''
-    state.type = 'SUCCESS'
-  }
-  catch (e) {
-    console.log('error')
-    state.type = 'ERROR'
+    data.firstName = "";
+    data.lastName = "";
+    data.email = "";
+    data.phone = "";
+    data.subject = "";
+    data.message = "";
+    state.type = "SUCCESS";
+  } catch (e) {
+    console.log("error");
+    state.type = "ERROR";
   }
 
   setTimeout(() => {
-    state.type = undefined
-  }, 15000)
-}
+    state.type = undefined;
+  }, 15000);
+};
 </script>
