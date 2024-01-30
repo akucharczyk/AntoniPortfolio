@@ -27,10 +27,6 @@ const cardItems = [
     title: 'Newsletter Classic',
   },
   {
-    src: '/designs/DEFI-History.jpg',
-    title: 'DEFI-History',
-  },
-  {
     src: '/designs/golf-io.jpg',
     title: 'Minigolf.io',
   },
@@ -48,11 +44,6 @@ const cardItems = [
     src: '/designs/aromatic89.jpeg',
     title: 'Aromatic 89',
     url: 'https://aromatic89-shop.de/'
-  },
-  {
-    src: '/designs/defichain-income.jpeg',
-    title: 'DEFI-Income',
-    url: 'https://defichain-income.de/'
   },
   {
     src: '/designs/Dribbble1.jpg',
