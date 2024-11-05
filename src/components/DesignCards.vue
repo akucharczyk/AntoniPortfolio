@@ -23,7 +23,7 @@
 <script lang="ts" setup>
 const cardItems = [
   {
-    src: '/designs/AppDesign.jpeg',
+    src: '/designs/AppDesign.jpg',
     title: 'Design App',
   },
   {
