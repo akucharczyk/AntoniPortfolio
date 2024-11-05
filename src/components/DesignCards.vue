@@ -23,6 +23,10 @@
 <script lang="ts" setup>
 const cardItems = [
   {
+    src: '/designs/AppDesign.jpeg',
+    title: 'Design App',
+  },
+  {
     src: '/designs/newsletter.jpeg',
     title: 'Newsletter Classic',
   },
@@ -33,12 +37,10 @@ const cardItems = [
   {
     src: '/designs/Papers.jpg',
     title: 'Laura Alicia Kalk',
-    url: 'https://lauraaliciakalk.art/'
   },
   {
     src: '/designs/alphaoptik.png',
     title: 'Alphaoptik',
-    url: 'https://alphaoptik.net/'
   },
   {
     src: '/designs/aromatic89.jpeg',
